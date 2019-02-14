@@ -6,7 +6,7 @@ function main(){
   var boton = document.getElementById('boton')
 
   boton.onclik = () => {
-    console.log("Click");
+   console.log("Click");
 
     var display = document.getElementById('display');
     display.innerHTML = "NUEVO TEXTO"
