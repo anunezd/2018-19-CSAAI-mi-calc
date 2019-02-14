@@ -1,14 +1,10 @@
-//-- Punto de entrada: una vez cargada la página se llama a esta
-//-- funcion: ahí comienza nuestro programa principal
-function main(){
-  console.log("Aquí comienza tu código JS...");
-
+console.log ("Cadena")
+function main() {
+  console.log ("Estoy dentro del main")
   var boton = document.getElementById('boton')
-
-  boton.onclik = () => {
-   console.log("Click");
-
-    var display = document.getElementById('display');
-    display.innerHTML = "NUEVO TEXTO"
+  boton.onclick = () => {
+    console.log("Boton apretado")
+  var display = document.getElementById('display')
+  display.innerHTML = "Nuevo Texto"
   }
 }
