@@ -4,7 +4,7 @@ function main()
 {
   console.log("Aquí comienza tu código JS...");
 
-  var boton = docucument.getElementById('boton')
+  var boton = document.getElementById('boton')
 
   boton.onclik = () => {
     console.log("Click");
