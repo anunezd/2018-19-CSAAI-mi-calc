@@ -1,5 +1,6 @@
 function main() {
   var display = document.getElementById('display')
+  var display2 = document.getElementById('display2')
   var operadora = 0
   var operadorb = 0
   var linea = 0
@@ -48,6 +49,7 @@ function main() {
     if (linea.includes("-")) {
       operadorb = linea.split("-")[1]
       resultado = parseFloat(operadora) - parseFloat(operadorb)}
+    display2.innerHTML = resultado
     console.log (operadorb)
     console.log (linea)
     console.log (resultado)
