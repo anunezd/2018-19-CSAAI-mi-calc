@@ -1,11 +1,49 @@
-body {
-  background-color: lightblue;
+body{
+  background-image: url("cience.jpg");
 }
 
-h2 {
-  color:blue;
+#div1{
+  width: 400px;
+  height: 400px;
+  margin:auto;
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-left: 65px;
+  background-color: DarkSlateGray;
+  border-radius: 10px;
+  border-style: ridge;
 }
 
-p {
-  color: green;
+#display{
+  font-size: 30px;
+  font-weight: bold;
+  width: 340px;
+  height: 70px;
+  margin-bottom: -20px;
+  background-color: PaleGreen;
+  border-color: PaleGreen;
 }
+
+#display2{
+  font-size: 30px;
+  font-weight: bold;
+  width: 340px;
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: PaleGreen;
+  border-color: PaleGreen;
+}
+
+button{
+  width: 60px;
+  height: 40px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+#boton0{width: 130px;}
+#botonac{background-color: blue; color: white}
+#botondel{background-color: blue; color: white}
