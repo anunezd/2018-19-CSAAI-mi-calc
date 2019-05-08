@@ -1,5 +1,7 @@
 # 2018-19-CSAAI-mi-calc
-https://anunezd.github.io/2018-19-CSAAI-mi-calc/
+1. https://anunezd.github.io/2018-19-CSAAI-mi-calc/index.html
+
+2. https://anunezd.github.io/2018-19-CSAAI-mi-calc/calculadoramodi.html
 
 Creamos un nuevo archivo llamado calculadoramodi.js en el que implementamos la
 funcionalidad de operar en binario.
